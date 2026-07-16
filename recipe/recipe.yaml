@@ -19,7 +19,7 @@ source:
     target_directory: llvm-modern-src
 
 build:
-  number: 0
+  number: 1
   skip:
     - not linux
     - match(python, "<3.11")
